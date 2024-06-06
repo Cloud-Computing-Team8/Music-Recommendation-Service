@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emotion Result</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      h1,
+      h2 {
+        text-align: center;
+        color: #333;
+      }
+      p {
+        text-align: center;
+        margin: 10px 0;
+      }
+      a {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+        text-decoration: none;
+        color: #007bff;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      .youtube-thumbnail {
+        display: block;
+        margin: 20px auto; /* Center the image horizontally and add some margin */
+        width: 400px; /* Set the width */
+        height: 300px; /* Set the height */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Detected Emotion: {{ emotion }}</h1>
+      <h2>Recommended Song</h2>
+      <p>Title: {{ title }}</p>
+      <p>Artist: {{ artist }}</p>
+      <p><a href="{{ youtube_link }}" target="_blank">YouTube Link</a></p>
+      <a href="{{ youtube_link }}" target="_blank">
+        <img
+          class="youtube-thumbnail"
+          src="https://img.youtube.com/vi/{{ youtube_video_id }}/0.jpg"
+          alt="YouTube Thumbnail"
+        />
+      </a>
+      <a href="{{ url_for('index') }}">Upload another image</a>
+    </div>
+  </body>
+</html>
