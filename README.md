@@ -151,7 +151,7 @@ OPEN_API_KEY= {your Open AI API key}
 3. **/uploads/happy.jpeg 를 예시로 넣으면 아래와 같은 Preview를 확인할 수 있다.**
 
 <div style="margin-left: 90px;">
-   <img src="src/readme_photo/uploadImage.png" alt="Upload2" width="300">
+   <img src="src/readme_photo/upload2.png" alt="Upload2" width="300">
 </div>
 
 4. **사진에서의 감정을 인식한 결과와 이를 바탕으로 추천하는 노래 제목 및 가수, YouTube Link를 제공한다.
@@ -193,3 +193,5 @@ OPEN_API_KEY= {your Open AI API key}
    - 대규모 감정 데이터를 분석하여 심리 연구 및 마케팅 리서치에 활용할 수 있습니다.
 
 이 외에도, 감정 인식 기술을 다양한 산업과 서비스에 접목하여 새로운 사용자 경험을 창출할 수 있습니다.
+
+[def]: rc/readme_photo/uploadImage.pn
