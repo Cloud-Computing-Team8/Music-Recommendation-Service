@@ -134,7 +134,9 @@ AWS_SECRET_ACCESS_KEY = {your AWS secret access key}
 OPEN_API_KEY= {your Open AI API key}
 ```
 
-7. **terminal에 `python app.py` 입력하여 실행**
+7. **directory 위치를 'src'로 설정한 후( `cd src` ), terminal에 `python app.py` 입력하여 실행**
+
+8. **실행중인 동일한 컴퓨터에서, 웹 브라우저를 통하여 http://127.0.0.1:5000 로 접속한다.**
 
 ### 동작 방법
 
@@ -193,5 +195,3 @@ OPEN_API_KEY= {your Open AI API key}
    - 대규모 감정 데이터를 분석하여 심리 연구 및 마케팅 리서치에 활용할 수 있습니다.
 
 이 외에도, 감정 인식 기술을 다양한 산업과 서비스에 접목하여 새로운 사용자 경험을 창출할 수 있습니다.
-
-[def]: rc/readme_photo/uploadImage.pn
